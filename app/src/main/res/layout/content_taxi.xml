@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackWhite"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorText"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress"
+                    android:ems="10"
+                    android:id="@+id/from_place_id"
+                    android:hint="@string/begin_place"
+                    android:selectAllOnFocus="true"
+                    style="@android:style/TextAppearance.Holo.Widget.EditText"
+                    android:textColorHighlight="@android:color/background_dark"
+                    android:textColorHint="@android:color/background_dark" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress"
+                    android:ems="10"
+                    android:id="@+id/end_place_id"
+                    android:hint="@string/end_place"
+                    android:textColorHighlight="@android:color/background_dark"
+                    android:textColorHint="@android:color/background_dark"
+                    style="@android:style/TextAppearance.Holo.Widget.EditText" />
+
+                <Button
+                    android:text="@string/add_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button_add_address"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:gravity="left|center_vertical"
+                    android:textColorHighlight="@color/colorLightGray"
+                    android:textColorHint="@color/colorLightGray"
+                    android:textColor="@color/colorLightGray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_weight="62.91"
+                android:layout_height="200dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|end"
+                android:layout_gravity="bottom|end">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/icons_id"
+                    android:layout_margin="5dp"
+                    android:layout_height="96dip">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/tarif1"
+                        android:id="@+id/button_tarif_id"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:background="@color/colorBackWhite"
+                        android:contentDescription="" />
+
+                    <ImageButton
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/suggestions1"
+                        android:id="@+id/button_suggestions_id"
+                        android:scaleType="fitCenter"
+                        android:background="@color/colorBackWhite"
+                        android:layout_width="96dp" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/when1"
+                        android:id="@+id/button_when_id"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:background="@color/colorBackWhite" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/price_layout_id"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/sum1"
+                        android:id="@+id/sum1_id"
+                        android:layout_weight="0.63"
+                        android:scaleType="fitEnd"
+                        android:adjustViewBounds="false"
+                        android:cropToPadding="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/price_id"
+                        android:text="@string/price"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        android:gravity="left|center"
+                        android:background="@color/colorText"
+                        android:layout_height="69dp"
+                        android:layout_weight="0.59"
+                        android:textColorHighlight="@android:color/background_dark"
+                        android:textColorHint="@android:color/background_dark"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.57" />
+
+                </LinearLayout>
+
+                <Button
+                    android:text="@string/call_taxi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button_call_taxi_id"
+                    android:background="@android:color/holo_orange_light"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

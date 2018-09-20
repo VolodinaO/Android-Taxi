@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Taxi-Mob</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools">Tools</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+
+    <string name="popup_menu_item_1">About</string>
+    <string name="popup_menu_item_2">Buy</string>
+    <string name="popup_menu_item_3">Exit</string>
+    <string name="exit_title">Exit confirmation</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="about">About</string>
+    <string name="bio">BIO</string>
+    <string name="tags">Tags</string>
+    <string name="settings">Settings</string>
+    <string name="some_cool_news_everyone">Some cool news everyone!</string>
+    <string name="to_my_mind">To my mind, the best Android apps excel in two areas: excellence and elegance. An excellent app provides something that no other app can.</string>
+    <string name="advertisment_from_haulmont">Advertisment from Haulmont</string>
+    <string name="do_you_want">Do you want to use the best full stack application Framework?</string>
+    <string name="buy">Buy</string>
+    <string name="general">General</string>
+    <string name="sound">Sound</string>
+    <string name="soundText">Default sound la la la</string>
+    <string name="notifications">Notifications</string>
+    <string name="color">Color</string>
+    <string name="instant_buy">Instant buy</string>
+    <string name="advertisement">Advertisement</string>
+    <string name="today">Today</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="user_name">User name</string>
+
+    <string name="taxi_service">Rutaxi</string>
+    <string name="city_select">Самара</string>
+    <string name="begin_place">ОТКУДА</string>
+    <string name="end_place">КУДА</string>
+    <string name="add_address">+ Добавить адрес</string>
+    <string name="price">155 рублей</string>
+    <string name="call_taxi">Вызвать такси</string>
+    <string name="like_addresses">Любимые адреса</string>
+    <string name="profile">Профиль</string>
+    <string name="call_back">Обратная связь</string>
+    <string name="call_operator">Позвонить оператору</string>
+    <string name="history">История заказов</string>
+    <string name="delete">Очистить</string>
+
+    <string name="about_text">Laboratory work #1 \nAuthor: Volodina Olga \nGroup: 6131 \nUniversity: SSAU</string>
+    <string name="ok">OK</string>
+    <string name="new_note">New note</string>
+    <string name="add_some_notes_here">Add some notes here</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_text">Edit text</string>
+    <string name="input_new_text">Input new text</string>
+    <string name="edit_date">Edit date</string>
+    <string name="edit_color">Edit color</string>
+</resources>
